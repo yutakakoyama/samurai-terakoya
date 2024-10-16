@@ -1,0 +1,846 @@
+/* ================================================================================
+	PCだけ表示、SPだけ表示
+================================================================================ */
+@media (min-width: 768px){
+	.only_pc {
+		display: block;
+	}
+}
+@media screen and (max-width: 767px) {
+	.only_pc {
+		display: none;
+	}
+}
+  
+@media (min-width: 768px){
+.only-sp {
+	display: none;
+}	
+}
+ 
+@media screen and (max-width: 768px) {
+.only-sp {
+	display: block;
+}
+}
+header{
+    display: flex;
+    width: 100%;
+    height: 4vw;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+img{
+    object-fit: cover;
+}
+header p{
+    font-size: 1vw;
+    font-weight: normal;
+    margin: 0;
+}
+header h1{
+    font-size: 1.6vw;
+    margin: 0;
+}
+.shop{
+    text-align: left;
+    margin-left: 8vw;
+}
+header nav{
+    margin-right: 8vw;
+}
+header ul{
+    display: flex;
+    align-items: center;
+}
+.menu-li{
+    list-style: none;
+    margin:  0vw 1vw;
+}
+.menu-li a img{
+    width: 2.5vw;
+    height: auto;
+}
+.menu-li a{
+    color: #222;
+    text-decoration: none;
+    font-size: 1vw;
+}
+.page{
+    width: 100%;
+}
+
+/*ファーストビュー */
+
+.fv{
+    height: 50vw;
+    position: relative;
+}
+.foot{
+    width: 50vw;
+    height: auto;
+}
+.tiwawa{
+    width: 50vw;
+    height: 32vw;
+    position: absolute;
+    left: 0vw;
+    top: 18vw;
+}
+.rect-or{
+    width: 88vw;
+    height: 33vw;
+    background-color: #FFBA92;
+    position: absolute;
+    top: 13vw;
+    right: 0vw;
+}
+.rect-gm{
+    width: 31vw;
+    height: 17vw;
+    background-color: #E0F5B9;
+    position: absolute;
+    left: 50vw;
+    bottom: 0vw;
+}
+.phrase{
+    position: absolute;
+    top: 8vw;
+    left: 41vw;
+}
+.phrase h2{
+    font-size: 1.6vw;
+}
+.phrase p{
+    font-size: 1.2vw;
+}
+.zyouhou{
+    font-size: 1.6vw;
+    position: absolute;
+    top: 2vw;
+    left: 2vw;
+    line-height: 2.2vw;
+}
+
+/*コンセプト*/
+
+.ashiato{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 0;
+}
+.concept{
+    margin: 100px auto;
+    width: 1000px;
+}
+.concept-page{
+    display: flex;
+    font-size: 16px;
+    line-height: 30px;
+}
+.title-one{
+    display: flex;
+    border-bottom: 10px solid #E0F5B9;
+    width: 260px;
+    padding-top: 100px;
+    margin-bottom: 40px;
+
+}
+.title-one h2{
+    display: block;
+    margin: 0;
+    font-size: 36px;
+    font-weight: normal;
+}
+.concept-page{
+    display: flex;
+}
+.concept-p{
+    width: 500px;
+    
+}
+.yokusya{
+    width: 500px;
+    height: 500px;
+    margin-right: 0px;
+}
+.bl-con{
+    background-color: #92D7FF;
+    width: 180px;
+    height: 60px;
+    font-weight: bold;
+    margin-top: -85px;
+    margin-left: 190px;
+}
+.bl-con p{
+    text-align: center;
+    padding-top: 15px;
+}
+
+/*トリミング、ペットホテル*/
+
+.tripet{
+    margin-top: 100px;
+}
+.bg-or{
+    background-color: #FFBA92;
+    width: 100%;
+    height: 880px;
+    padding-top: 100px;
+}
+.tripetsec{
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+.title-two{
+    display: flex;
+    border-bottom: 10px solid #E0F5B9;
+    width: 295px;
+}
+.title-two h2{
+    display: block;
+    margin: 0;
+    font-size: 36px;
+    font-weight: normal;
+}
+.triming title h2{ 
+    margin-left: -190px;
+}
+.bl-trim{
+    background-color: #92D7FF;
+    width: 180px;
+    height: 60px;
+    font-weight: bold;
+    margin-top: 40px;   
+}
+.bl-trim p{
+    text-align: center;
+    padding-top: 15px;
+}
+.inu{
+    width: 450px;
+    height: 300px;
+}
+.setumei{
+    line-height: 30px;
+}
+.bl-pet{
+    background-color: #92D7FF;
+    width: 180px;
+    height: 60px;
+    font-weight: bold;
+    margin-top: 60px;
+}
+.bl-pet p{
+    text-align: center;
+    padding-top: 15px;
+}
+
+/*ブログ*/
+.blog{
+    margin: 100px auto;
+    width: 1000px;
+}
+.blog-bun{
+    font-size: 28px;
+}
+.blog p{
+    font-weight: normal;
+}
+.post{
+    display: flex;
+    justify-content: space-between;
+}
+.blog-dog{
+    width: 235px;
+    height: 160px;
+}
+.day{
+    font-size: 16px;
+}
+.category{
+    background-color: #C2C2C2;
+    width: 100px;
+    height: 25px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+
+/*ギャラリー*/
+
+.bg-gl{
+    background-color: #C6F1D6;
+    width: 100%;
+    height: 880px;
+}
+.gallery{
+    margin: 100px auto;
+    width: 1000px;
+}
+.bl-gal{
+    background-color: #92D7FF;
+    width: 180px;
+    height: 60px;
+    font-weight: bold;
+    margin-top: 27px;
+    margin-left: 415px;
+}
+.bl-gal p{
+    text-align: center;
+    padding-top: 15px;
+}
+.photo{
+    display: flex;
+}
+.tiwawa-sanpo{
+    width: 500px;
+    height: 500px;
+    margin-right: 10px;
+}
+.bulldog{
+    width: 450px;
+    height: 240px;
+    margin-bottom: 20px;
+}
+.toipu{
+    width: 215px;
+    height: 235px;
+    margin-right: 10px;
+}
+.tiwawa-huro{
+    width: 215px;
+    height: 235px;
+}
+
+/*予約、アクセス*/
+
+.info{
+    margin: 100px auto;
+    width: 1000px;
+    display: flex;
+    height: 380px;
+}
+.line-info{
+    margin-top: 40px;
+    font-size: 28px;
+    width: 500px;
+    line-height: 40px;
+}
+.line{
+    display: flex;
+}
+.line-qr{
+    width: 130px;
+    height: 130px;
+    margin-right: 20px;
+}
+.add{
+    margin: 40px 0px;
+}
+.map{
+    width: 500px;
+    height: 250px;
+}
+
+/*フッター*/
+
+.footer-bg{
+    background-color: #FFBA92;
+    width: 100%;
+    height: 480px;
+}
+.footer{
+    margin: 0px 215px;
+    padding-top: 100px;
+    color: white;
+}
+.footer h3{
+    font-size: 24px;
+}
+.footer p{
+    font-size: 16px;
+    line-height: 40px;
+}
+.insta{
+    width: 33px;
+    height: 33px;
+}
+.footer-line{
+    display: flex;
+    color: white;
+    margin-left: 500px;
+    margin-top: -210px;
+}
+.ft-line{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+.footer-list{
+    margin-left: 800px;
+    margin-top: -145px;
+}
+.footer-li{
+    list-style: none;
+}
+.footer-li a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+@media screen and (max-width:768px){
+.menu-li{
+    display: none;
+}
+header p{
+    font-size: 1vw;
+    font-weight: normal;
+    margin: 0;
+}
+header h1{
+    font-size: 1.8vw;
+    margin: 0;
+    font-weight: normal;
+}
+.shop{
+    margin: 2vw;
+}
+    /*ファーストビュー */
+
+.fv{
+    width: 100%;
+    height: 50vw;
+    position: relative;
+}
+.foot{
+    width: 50vw;
+    height: auto;
+}
+.tiwawa{
+    width: 100vw;
+    height: 60vw;
+    position: absolute;
+    left: 0vw;
+    top: 18vw;
+}
+.rect-or{
+    width: 100%;
+    height: 40vw;
+    background-color: #FFBA92;
+    position: absolute;
+    top: 78vw;
+    right: 0vw;
+}
+.rect-gm{
+    width: 100%;
+    height: 25vw;
+    background-color: #E0F5B9;
+    position: absolute;
+    top: 118vw;
+    left: 0vw;
+}
+.phrase{
+    position: absolute;
+    top: 5.5vw;
+    left: 0%;
+}
+.phrase h2{
+    display: block;
+    margin: 0 auto;
+    width: 82%;
+    font-size: 5.5vw;
+}
+.phrase p{
+    font-size: 3.5vw;
+}
+.zyouhou{
+    width: 100%;
+    font-size: 6vw;
+    position: absolute;
+    top: 3vw;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 1.6;
+    text-align: center;
+}
+.phone{
+    display: none;
+}
+/*コンセプト*/
+
+.ashiato{
+    width: 10vw;
+    height: 10vw;
+    margin-bottom: 0vw;
+}
+.concept{
+    margin: 45vw auto;
+    width: 100%;
+    padding-top: 40vw;
+    
+}
+.concept-page{
+    font-size: 4vw;
+    line-height: 7vw;
+}
+.title-one{
+    border-bottom: 3vw solid #E0F5B9;
+    width: 67vw;
+    padding-top: 20vw;
+    margin-bottom: 14vw;
+}
+.title-one h2{
+    display: block;
+    margin: 0;
+    font-size: 9vw;
+    font-weight: normal;
+}
+.concept-page{
+    flex-direction: column;
+}
+.concept-p{
+    width: 90vw;
+    margin: 0 auto;
+}
+.yokusya{
+    width: 100%;
+    height: 36vw;
+}
+.bl-con{
+    background-color: #92D7FF;
+    width: 47vw;
+    height: 15vw;
+    font-weight: bold;
+    margin: 10vw auto;
+}
+.bl-con p{
+    text-align: center;
+}
+
+/*トリミング、ペットホテル*/
+
+.tripet{
+    margin-top: -20vw;
+}
+.bg-or{
+    background-color: #FFBA92;
+    width: 100%;
+    height: 380vw;
+    position: relative;
+}
+.tripetsec{
+    margin: 0 auto;
+    width: 100%;
+    flex-direction: column;
+    position: absolute;
+}
+.title-two{
+    display: flex;
+    border-bottom: 3vw solid #E0F5B9;
+    width: 75vw;
+}
+.title-two h2{
+    display: block;
+    margin: 0;
+    font-size: 9vw;
+    font-weight: normal;
+}
+.bl-trim{
+    background-color: #92D7FF;
+    width: 47vw;
+    height: 15vw;
+    font-weight: bold;
+    margin: 10vw auto;   
+}
+.bl-trim p{
+    text-align: center;
+    padding-top: 4vw;
+}
+
+.inu{
+    width: 100%;
+    height: 77vw;
+}
+.setumei{
+    width: 90vw;
+    margin: 5vw auto;
+    line-height: 7vw;
+}
+.bl-pet{
+    background-color: #92D7FF;
+    width: 47vw;
+    height: 15vw;
+    font-weight: bold;
+    margin: 10vw auto;
+}
+.bl-pet p{
+    text-align: center;
+    padding-top: 4vw;
+}
+
+/*ブログ*/
+.blog{
+    margin: 0 auto;
+    width: 100%;
+}
+.blog-bun{
+    font-size: 7vw;
+}
+.blog p{
+    font-weight: normal;
+}
+.post{
+    width: 60vw;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.blog-dog{
+    width: 60vw;
+    height: 40vw;
+    margin-top: 10vw;
+}
+.category{
+    background-color: #C2C2C2;
+    width: 25vw;
+    height: 7vw;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/*ギャラリー*/
+
+.bg-gl{
+    background-color: #C6F1D6;
+    width: 100%;
+    height: 295vw;
+}
+.gallery{
+    margin: 20vw auto;
+    width: 100%;
+}
+.photo{
+    flex-direction: column;
+}
+.bl-gal{
+    background-color: #92D7FF;
+    width: 47vw;
+    height: 15vw;
+    font-weight: bold;
+    margin: 10vw auto;
+}
+.bl-gal p{
+    text-align: center;
+}
+
+.tiwawa-sanpo{
+    width: 80vw;
+    height: 80vw;
+    margin: 0 auto;
+}
+.bulldog{
+    width: 100%;
+    height: 53vw;
+    margin: 13vw 0;
+}
+.dog{
+    display: flex;
+    margin: 0 3vw;
+}
+.toipu{
+    width: 46vw;
+    height: 46vw;
+}
+.tiwawa-huro{
+    width: 46vw;
+    height: 46vw;
+}
+
+/*予約、アクセス*/
+
+.info{
+    margin: 25vw auto;
+    width: 100%;
+    height: 0vw;
+    flex-direction: column;
+}
+.line-info{
+    width: 100%;
+    margin-top: 10vw;
+    font-size: 7vw;
+    line-height: 22vw;
+}
+.line{
+    width: 47vw;
+    height: 15vw;
+    background-color: #18BC05;
+    color: white;
+    margin: 0 auto;
+}
+.line p{
+    width: 100%;
+    padding: 0 8vw;
+    font-size: 4vw;
+    line-height: 7vw;
+    text-align: left;
+}
+.line-qr{
+    display: none;
+}
+.access{
+    width: 100%;
+    margin-top: 20vw;
+}
+.add{
+    margin: 10vw 0px;
+}
+.map{
+    width: 95vw;
+    height: 60vw;
+    margin: 0 2.5vw;
+}
+
+/*フッター*/
+
+.footer-bg{
+    background-color: #FFBA92;
+    width: 100%;
+    height: 480px;
+
+}
+.footer{
+    margin: 0px 215px;
+    padding-top: 100px;
+    color: white;
+    display: none;
+}
+.footer h3{
+    font-size: 24px;
+    display: none;
+}
+.footer p{
+    font-size: 16px;
+    line-height: 40px;
+    display: none;
+}
+.insta{
+    width: 33px;
+    height: 33px;
+    display: none;
+}
+.footer-line{
+    display: flex;
+    color: white;
+    margin-left: 500px;
+    margin-top: -210px;
+    display: none;
+}
+.ft-line{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    display: none;
+}
+.footer-list{
+display: none;
+}
+
+}
+
+
+
+/* ================================================================================
+	小山footer
+================================================================================ */
+
+/* PC設定
+----------------------------------------------- */
+@media (min-width: 768px) {
+	.footer2 {
+        width: 100%;
+        height: 30vw;
+        background-color: #FFBA92;
+        display: block;
+        margin-top: 4vw;
+        padding: 6vw 0 0 2vw;
+    }
+    .f__wrap {
+        display: flex;
+        color: #fff;
+        width: 70vw;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+    .f__name {
+        font-size: 1.5vw;
+        font-weight: 600;
+    }
+    .f__address {
+        margin-top: 2vw;
+        line-height: 2;
+    }
+    .f__block02 {
+        display: flex;
+        margin-top: 4vw;
+    }
+    .f__block02 p {
+        font-size: 1.3vw;
+    }
+    .f__block03 {
+        margin-top: 4vw;
+    }
+    .f__block03 li {
+        margin-top: 1vw;
+    }
+}
+
+
+/* SP設定
+----------------------------------------------- */
+@media (max-width: 767px) {
+    .footer2 {
+        width: 100%;
+        height: 150vw;
+        background-color: #FFBA92;
+        display: block;
+        margin-top: 64vw;
+        padding: 10vw 0 0 2vw;
+    }
+    .f__wrap {
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        width: 70vw;
+        margin: 0 auto;
+    }
+    .f__name {
+        font-size: 6.5vw;
+        font-weight: 600;
+    }
+    .f__address {
+        margin-top: 4vw;
+        line-height: 2;
+        font-size: 4vw;
+    }
+    .f__block02 {
+        display: flex;
+        margin-top: 4vw;
+    }
+    .ft-line {
+        display: block;
+        width: 15vw;
+        height: auto;
+    }
+    .f__block02 p {
+        font-size: 4vw;
+    }
+    .f__block03 {
+        margin-top: 6vw;
+    }
+    .f__block03 li {
+        margin-top: 4vw;
+    }
+}
